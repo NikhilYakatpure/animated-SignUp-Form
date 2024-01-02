@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <main>
+    <div class="box">
+        <div class="inner-box">
+            <div class="form-wrap">
+                <form action="sign_up.html" autocomplete="off" class="sign-in-form">
+                    <div class="logo">
+                        <img src="./images/thumbnail.jpeg" alt="easyclass">
+                        <!-- <h4>Yummy Bakes</h4> -->
+                    </div>
+
+                    <div class="heading">
+                        <h2>welcome Back</h2>
+                        <h6>not registred yet?</h6>
+                        <a href="#" class="toggle">sign up</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="name"  required
+                                />
+                                <label>Name</label>
+                            </div>
+
+                            
+                            <div class="input-wrap">
+                                <input type="password" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="pass" required
+                                />
+                                <label>Password</label>
+                            </div>
+
+                            <input type="submit" value="Sign In" class="sign-btn" />
+
+                            <p class="text">
+                                Forgotten your password or you login details?
+                                <a href="#">get help</a> signing in
+                            </p>
+                        </div>
+                </form>
+
+
+                <form action="sign_up.html" autocomplete="off" class="sign-up-form">
+                    <div class="logo">
+                        <img src="./images/thumbnail.jpeg" alt="easyclass">
+                        <!-- <h4>Yummy Bakes</h4> -->
+                    </div>
+
+                    <div class="heading">
+                        <h2>Get Started</h2>
+                        <h6>Already have an account?</h6>
+                        <a href="#" class="toggle">Sign In</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="name1"  required
+                                />
+                                <label>Name</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="email" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="email"  required
+                                />
+                                <label>Email</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="Phone" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="phone"  required
+                                />
+                                <label>Phone</label>
+                            </div>
+
+                            
+                            <div class="input-wrap">
+                                <input type="password" 
+                                minlength="4" 
+                                class="input-field" 
+                                autocomplete="off" 
+                                id="pass1" required
+                                />
+                                <label>Password</label>
+                            </div>
+
+                            <input type="submit" value="Sign Up" class="sign-btn" />
+
+                            <p class="text text1">
+                               By signing up, I agree to the <a href="#">Terms of Services</a> and <a href="#">Privacy Policy</a> 
+                            </p>
+                        </div>
+                </form>
+            </div>
+
+
+            <div class="carousel">
+                <div class="images-wrapper">
+                    <img src="./images/image2.jpg" alt="" class="image img-1 show">
+                    <img src="./images/image1.jpg" alt="" class="image img-2">
+                    <img src="./images/image4.jpg" alt="" class="image img-3">
+                </div>
+
+                <div class="text-slider">
+                    <div class="text-wrap">
+                        <div class="text-group">
+                            <h2>Enjoy Your Every bite</h2>
+                            <h2>Yum Yum taste</h2>
+                            <h2>One sip Will Change Your Mood</h2>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="bullets">
+                        <span class="active" data-value="1"></span>
+                        <span data-value="2"></span>
+                        <span data-value="3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </main>
+
+
+
+   <script src="./js/script.js"></script>
+</body>
+
+</html>
